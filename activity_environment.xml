@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fbutton_color_emerald">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Mother Nature -->
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/mothernature"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            app:cardElevation="10dp">
+
+
+            <TextView
+                android:layout_width="235dp"
+                android:layout_height="150dp"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="Everyone Invited to Exhibition in Support of ‘Mother Nature’"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:src="@drawable/env1" />
+
+        </android.support.v7.widget.CardView>
+
+        <!-- River Of Life -->
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/riveroflife"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="River of Life Public Outreach Programme"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:src="@drawable/env2" />
+
+        </android.support.v7.widget.CardView>
+
+        <!-- GAB Foundation -->
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/gabfoundation"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:layout_width="248dp"
+                android:layout_height="150dp"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="Sg Kinta Rehabilitation Project under GAB Foundation W.A.T.E.R project"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:src="@drawable/env3" />
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView>
